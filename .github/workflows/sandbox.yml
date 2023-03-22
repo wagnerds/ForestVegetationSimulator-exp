@@ -5,5 +5,8 @@ jobs:
   Explore-github-actions:
     runs-on: windows-latest
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3 
       - run: pwd
       - run: ls ${{ github.workspace }}
+      - run: ls ${{ github.workspace }}/bin

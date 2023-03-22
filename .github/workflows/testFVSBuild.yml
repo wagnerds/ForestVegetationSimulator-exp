@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build-fvs:
 
     runs-on: windows-latest
 
@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build FVSak
-      run: ../../bin/make FVSak.exe
+      run: "../../bin/make FVSak.exe"

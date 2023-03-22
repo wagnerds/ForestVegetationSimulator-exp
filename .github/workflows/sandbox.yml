@@ -10,3 +10,4 @@ jobs:
       - run: pwd
       - run: ls ${{ github.workspace }}
       - run: ls ${{ github.workspace }}/bin
+      - run: "${{ github.workspace }}/bin/make FVSak.exe"

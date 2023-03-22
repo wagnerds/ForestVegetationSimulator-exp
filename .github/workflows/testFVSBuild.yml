@@ -1,4 +1,4 @@
-name: Check System
+name: Build FVSak
 
 on:
   push:

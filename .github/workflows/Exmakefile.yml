@@ -24,4 +24,4 @@ jobs:
       run: make --version
 
     - name: check sqlite3
-      run: sqlite3 --version
+      run: sqlite --version
